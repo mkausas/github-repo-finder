@@ -21,10 +21,11 @@ class RepoCell: UITableViewCell {
     var repoDetails: GithubRepo! {
         didSet {
             titleLabel.text = repoDetails.name
-            starLabel.text = "\(repoDetails.stars)"
-            forkLabel.text = "\(repoDetails.forks)"
-            authorLabel.text = repoDetails.ownerHandle
-            descriptionLabel.text = repoDetails.description
+            starLabel.text = "\(repoDetails.stars!)"
+            forkLabel.text = "\(repoDetails.forks!)"
+            authorLabel.text = "by \(repoDetails.ownerHandle!)"
+            descriptionLabel.text = repoDetails.repoDescription
+            logoImageView.setImageWithURL(NSURL(string: repoDetails.ownerAvatarURL!)!)
         }
     }
     
