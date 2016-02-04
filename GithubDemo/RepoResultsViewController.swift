@@ -62,7 +62,7 @@ class RepoResultsViewController: UIViewController, UITableViewDataSource, UITabl
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("RepoCell", forIndexPath: indexPath) as! RepoCell
 
-        
+        cell.repoDetails = repos[indexPath.row]
 
         return cell
     }

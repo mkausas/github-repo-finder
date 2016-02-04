@@ -24,7 +24,7 @@ class RepoCell: UITableViewCell {
             starLabel.text = "\(repoDetails.stars)"
             forkLabel.text = "\(repoDetails.forks)"
             authorLabel.text = repoDetails.ownerHandle
-            
+            descriptionLabel.text = repoDetails.description
         }
     }
     
