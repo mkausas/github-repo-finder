@@ -32,9 +32,15 @@ class RepoResultsViewController: UIViewController, UITableViewDataSource, UITabl
         // tableview setup
         tableView.delegate = self
         tableView.dataSource = self
+        tableView.estimatedRowHeight = 100
+        tableView.rowHeight = UITableViewAutomaticDimension
         
         // Perform the first search when the view controller first loads
         doSearch()
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        tableView.reloadData()
     }
 
     // Perform the search.
