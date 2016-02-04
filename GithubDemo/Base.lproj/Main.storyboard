@@ -21,52 +21,52 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="164.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Bootstrap" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Upa-CZ-e6W">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Bootstrap" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Upa-CZ-e6W">
                                             <rect key="frame" x="8" y="4" width="245" height="20"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by twitter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m9K-x3-4sQ">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="by twitter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m9K-x3-4sQ">
                                             <rect key="frame" x="8" y="23" width="72.5" height="20.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ese-P1-jdQ">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ese-P1-jdQ">
                                             <rect key="frame" x="8" y="52" width="90" height="90"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="90" id="4ju-X6-oPZ"/>
                                                 <constraint firstAttribute="height" constant="90" id="K0a-w4-rVF"/>
                                             </constraints>
                                         </imageView>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="fork" translatesAutoresizingMaskIntoConstraints="NO" id="JM9-E2-eHE">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="fork" translatesAutoresizingMaskIntoConstraints="NO" id="JM9-E2-eHE">
                                             <rect key="frame" x="318" y="4" width="20" height="20"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="20" id="7gZ-1w-dx4"/>
                                                 <constraint firstAttribute="height" constant="20" id="YwW-lo-mZs"/>
                                             </constraints>
                                         </imageView>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="PH8-3t-fkJ">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="PH8-3t-fkJ">
                                             <rect key="frame" x="261" y="4" width="20" height="20"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="20" id="NS3-zy-Rbu"/>
                                                 <constraint firstAttribute="height" constant="20" id="zWm-o6-j8j"/>
                                             </constraints>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" ambiguous="YES" text="30" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4fm-vo-pbx">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" misplaced="YES" text="30" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4fm-vo-pbx">
                                             <rect key="frame" x="289" y="4" width="21" height="20.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" ambiguous="YES" text="25" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="reA-sM-uNt">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" misplaced="YES" text="25" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="reA-sM-uNt">
                                             <rect key="frame" x="344" y="7" width="20.5" height="17.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a sample description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Zk-EB-tzO">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="This is a sample description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Zk-EB-tzO">
                                             <rect key="frame" x="113" y="52" width="251.5" height="20.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -74,6 +74,7 @@
                                         </label>
                                     </subviews>
                                     <constraints>
+                                        <constraint firstItem="reA-sM-uNt" firstAttribute="bottom" secondItem="PH8-3t-fkJ" secondAttribute="bottom" id="0Z0-zy-hdr"/>
                                         <constraint firstItem="m9K-x3-4sQ" firstAttribute="top" secondItem="Upa-CZ-e6W" secondAttribute="bottom" constant="-1" id="61L-Oi-FC2"/>
                                         <constraint firstItem="m9K-x3-4sQ" firstAttribute="top" secondItem="z7W-W4-HRh" secondAttribute="top" constant="21" id="7Hv-x4-CBL"/>
                                         <constraint firstItem="JM9-E2-eHE" firstAttribute="leading" secondItem="4fm-vo-pbx" secondAttribute="trailing" constant="8" id="7pI-cL-ee1"/>
@@ -84,20 +85,19 @@
                                         <constraint firstAttribute="trailing" secondItem="reA-sM-uNt" secondAttribute="trailing" constant="10" id="Mv8-FO-L4c"/>
                                         <constraint firstItem="Upa-CZ-e6W" firstAttribute="top" secondItem="z7W-W4-HRh" secondAttribute="top" constant="4" id="ODD-tn-ber"/>
                                         <constraint firstAttribute="trailing" secondItem="2Zk-EB-tzO" secondAttribute="trailing" constant="10.5" id="Wum-kI-mr6"/>
+                                        <constraint firstItem="JM9-E2-eHE" firstAttribute="bottom" secondItem="PH8-3t-fkJ" secondAttribute="bottom" id="ZCc-d5-Tnr"/>
                                         <constraint firstItem="m9K-x3-4sQ" firstAttribute="top" secondItem="Upa-CZ-e6W" secondAttribute="bottom" constant="-1" id="ZYi-ND-ic5"/>
                                         <constraint firstItem="4fm-vo-pbx" firstAttribute="leading" secondItem="PH8-3t-fkJ" secondAttribute="trailing" constant="8" id="bis-qP-oiw"/>
                                         <constraint firstItem="PH8-3t-fkJ" firstAttribute="bottom" secondItem="Upa-CZ-e6W" secondAttribute="bottom" id="bnB-15-I9U"/>
                                         <constraint firstItem="JM9-E2-eHE" firstAttribute="bottom" secondItem="Upa-CZ-e6W" secondAttribute="bottom" id="dc1-QP-sjm"/>
-                                        <constraint firstItem="PH8-3t-fkJ" firstAttribute="leading" secondItem="Upa-CZ-e6W" secondAttribute="trailing" constant="8" id="fGW-Kb-6u6"/>
+                                        <constraint firstItem="PH8-3t-fkJ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Upa-CZ-e6W" secondAttribute="trailing" constant="8" id="fGW-Kb-6u6"/>
                                         <constraint firstItem="ese-P1-jdQ" firstAttribute="top" secondItem="m9K-x3-4sQ" secondAttribute="bottom" constant="8.5" id="fKk-0a-Nhb"/>
                                         <constraint firstItem="2Zk-EB-tzO" firstAttribute="top" secondItem="ese-P1-jdQ" secondAttribute="top" id="ft7-26-fHX"/>
                                         <constraint firstItem="4fm-vo-pbx" firstAttribute="bottom" secondItem="Upa-CZ-e6W" secondAttribute="bottom" id="h6H-2f-gut"/>
                                         <constraint firstItem="JM9-E2-eHE" firstAttribute="top" secondItem="Upa-CZ-e6W" secondAttribute="top" id="hIB-xI-nhc"/>
-                                        <constraint firstItem="reA-sM-uNt" firstAttribute="top" secondItem="Upa-CZ-e6W" secondAttribute="top" id="hfE-Mr-kvo"/>
-                                        <constraint firstItem="PH8-3t-fkJ" firstAttribute="top" secondItem="Upa-CZ-e6W" secondAttribute="top" id="kHj-c5-k7v"/>
+                                        <constraint firstItem="4fm-vo-pbx" firstAttribute="bottom" secondItem="PH8-3t-fkJ" secondAttribute="bottom" id="iOe-o0-ZJP"/>
                                         <constraint firstItem="Upa-CZ-e6W" firstAttribute="leading" secondItem="z7W-W4-HRh" secondAttribute="leading" constant="8" id="mFb-nP-Jsv"/>
                                         <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="ese-P1-jdQ" secondAttribute="bottom" constant="19.5" id="mOr-XX-QDU"/>
-                                        <constraint firstItem="4fm-vo-pbx" firstAttribute="top" secondItem="Upa-CZ-e6W" secondAttribute="top" id="rfD-US-EvE"/>
                                         <constraint firstItem="reA-sM-uNt" firstAttribute="leading" secondItem="JM9-E2-eHE" secondAttribute="trailing" constant="6" id="s2y-7E-eYf"/>
                                         <constraint firstItem="m9K-x3-4sQ" firstAttribute="leading" secondItem="Upa-CZ-e6W" secondAttribute="leading" id="vzh-HA-NsR"/>
                                         <constraint firstItem="2Zk-EB-tzO" firstAttribute="leading" secondItem="ese-P1-jdQ" secondAttribute="trailing" constant="15" id="yi8-VF-Nsp"/>
@@ -106,6 +106,11 @@
                                     <variation key="default">
                                         <mask key="constraints">
                                             <exclude reference="7Hv-x4-CBL"/>
+                                            <exclude reference="bnB-15-I9U"/>
+                                            <exclude reference="h6H-2f-gut"/>
+                                            <exclude reference="dc1-QP-sjm"/>
+                                            <exclude reference="hIB-xI-nhc"/>
+                                            <exclude reference="GKe-KQ-l8E"/>
                                         </mask>
                                     </variation>
                                 </tableViewCellContentView>
